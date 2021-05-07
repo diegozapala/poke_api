@@ -4,13 +4,13 @@ class PokemonController < ApplicationController
     if !find_pokemon && poke_response_ok?
       build_pokemon
       build_abilities
-    else
+    elsif !find_pokemon
       response = 'Não encontrado'
     end
 
-    response = find_pokemon.abilities.order(name: :asc).map do |ability|
-                 {ability.name => ability.description}
-               end
+    response = response || find_pokemon.abilities.order(name: :asc).map do |ability|
+                             {ability.name => ability.description}
+                           end
 
     json_response(response)
   end
