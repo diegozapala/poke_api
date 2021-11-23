@@ -1,24 +1,17 @@
-# README
+# PokeApi
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Uma aplicação que se conecta com a api do pokémon e traz as informações do pokémon buscado.
 
-Things you may want to cover:
+## Dependências
 
-* Ruby version
+* Ruby 3.0.0
 
-* System dependencies
+* rails 6.1.3
 
-* Configuration
+## Como Executar
 
-* Database creation
+Para fazer uma busca de um novo pokémon basta acessar a rota `get_poke/pikachu` substituindo o `pikachu` pelo pokémon desejado:
 
-* Database initialization
+## Notas adicionais
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+O propósito deste projeto é apenas ser um teste para fazer uma conexão com outra aplicação externa e retornar um json.
