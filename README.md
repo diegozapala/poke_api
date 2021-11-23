@@ -10,8 +10,8 @@ Uma aplicação que se conecta com a api do pokémon e traz as informações do 
 
 ## Como Executar
 
-Para fazer uma busca de um novo pokémon basta acessar a rota `get_poke/pikachu` substituindo o `pikachu` pelo pokémon desejado:
+Para fazer uma busca de um novo pokémon, basta acessar a rota `get_poke/pikachu` substituindo o `pikachu` pelo pokémon desejado
 
 ## Notas adicionais
 
-O propósito deste projeto é apenas ser um teste para fazer uma conexão com outra aplicação externa e retornar um json.
+O propósito deste projeto é apenas ser um teste para fazer uma conexão com uma aplicação externa e retornar um json.
